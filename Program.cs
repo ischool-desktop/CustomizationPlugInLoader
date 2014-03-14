@@ -48,7 +48,7 @@ namespace CustomizationPlugInLoader
                                             }
                                             catch ( Exception e )
                                             {
-                                                SmartSchool.ExceptionHandler.BugReporter.ReportException(e, false);
+                                                //SmartSchool.ExceptionHandler.BugReporter.ReportException(e, false);
                                                 continue;
                                             }
                                         }
@@ -59,7 +59,7 @@ namespace CustomizationPlugInLoader
                     }
                     catch ( ReflectionTypeLoadException le )
                     {
-                        SmartSchool.ExceptionHandler.BugReporter.ReportException(le, false);
+                        //SmartSchool.ExceptionHandler.BugReporter.ReportException(le, false);
                     }
                     catch { }
                 }
